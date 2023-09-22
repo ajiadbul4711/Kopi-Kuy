@@ -174,33 +174,52 @@ div.navigasi {
    margin-right: 15px;
 }
 
-nav a {
+.navigasi a {
    color: #fff;
    padding-left: 8px;
    padding-right: 8px;
+
 }
 
 a.shop {
-   margin-right: 100px;
-   background-color: green;
-   border-radius: 9px;
-   padding-top: 5px;
-   padding-left: 15px;
-   padding-bottom: 5px;
-   padding-right: 15px;
-}
-
-a.chat {
    margin-right: 30px;
-   background-color: green;
+   border: 1px solid rgb(6, 148, 6);
    color: #fff;
    padding-top: 5px;
    padding-right: 15px;
    padding-bottom: 5px;
    padding-left: 15px;
    border-radius: 10px;
+   display: flex;
+
 }
 
+a.shop:hover {
+   background-color: green;
+   color: #000;
+   transition: 0.9s;
+   transform: scale(0.9);
+}
+
+a.chat {
+   margin-right: 30px;
+   border: 1px solid rgb(6, 148, 6);
+   color: #fff;
+   padding-top: 5px;
+   padding-right: 15px;
+   padding-bottom: 5px;
+   padding-left: 15px;
+   border-radius: 10px;
+   display: flex;
+
+}
+
+a.chat:hover {
+   background-color: green;
+   color: #000;
+   transition: 0.8s;
+   transform: scale(0.9);
+}
 
 /* 
    PERHATIKAN bahwa dalam mengatur elemen, nama elemen langsung ditulis
@@ -570,7 +589,41 @@ footer div.navigasi a {
    }
 
 }
-   
+
+@media (max-width:778px) {
+   div.navigasi {
+      display: none
+   }
+
+   a.shop {
+      margin-right: 20px;
+   }
+
+   img.logo {
+      margin-right: auto;
+   }
+
+   header div.kiri,
+   header div.kanan {
+      padding: 20px;
+      text-align: center;
+      width: 100%;
+   }
+
+   div.produk,
+   div.team,
+   div.kontak {
+      width: 50%;
+   }
+
+   div.testimoni {
+      width: 100%;
+      margin-bottom: 30px;
+   }
+}
+
+
+
 
 
 

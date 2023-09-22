@@ -16,19 +16,32 @@
         /* tulis kode CSS internal di bawah sini */
         body {
             background: url(images/about-us/mesin-kopi.jpg) no-repeat center fixed;
+            background-size: cover;
             height: 100%;
-
         }
 
         .bg-transparent {
-            backdrop-filter: blur(20px);
+            backdrop-filter: blur(22px);
         }
 
         .text-white {
             color: white;
         }
 
+        .btn-transition {
+            transition: 0.8s;
+            transform: scale(0.9);
+        }
 
+        .nav-transition {
+            transition: 1s;
+            transform: scale(1)
+        }
+        .nav-transition-color {
+            color: white;
+            transition: 1s;
+            transform: scale(1)
+        }
 
         /* Batas Akhir penulisan kode CSS internal */
     </style>
@@ -50,19 +63,19 @@
             <div class="collapse navbar-collapse" id="navbarNav11">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item active">
-                        <a class="nav-link" href="index.html">Home</a>
+                        <a class="nav-link nav-transition-color" href="index.html">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="index.html#best-seller">Best Seller</a>
+                        <a class="nav-link nav-transition-color" href="index.html#best-seller">Best Seller</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="index.html#our-team">Our Team</a>
+                        <a class="nav-link nav-transition-color" href="index.html#our-team">Our Team</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="index.html#contact-us">Contact Us</a>
+                        <a class="nav-link nav-transition-color" href="index.html#contact-us">Contact Us</a>
                     </li>
                 </ul>
-                <a class="btn btn-outline-success ms-md-3"
+                <a class="btn btn-outline-success btn-transition ms-md-3"
                     href="https://wa.me/6281290446155?text=halo kopi kuy mau tanya dong">
                     <i class="bi bi-whatsapp"></i> Chat
                 </a>
@@ -83,6 +96,7 @@
                     <option value="arabica">Arabica</option>
                     <option value="robusta">Robusta</option>
                     <option value="nonkopi">Non Kopi</option>
+                    <option value="cemilan">Cemilan</option>
                 </select>
                 <label for="select_kopi">Pilih Jenis Kopi</label>
             </div>
@@ -102,7 +116,8 @@
                                     Rp 15.000
                                 </div>
                             </div>
-                            <a href="https://www.google.com/search?q=cappuccino+arabica&tbm=shop" class="btn btn-success w-100"><i class="bi bi-cart4"></i> Beli</a>
+                            <a href="https://www.google.com/search?q=cappuccino+arabica&tbm=shop"
+                                class="btn btn-success w-100"><i class="bi bi-cart4"></i> Beli</a>
                         </div>
                     </div>
                 </div>
@@ -120,7 +135,8 @@
                                     Rp 18.000
                                 </div>
                             </div>
-                            <a href="https://www.google.com/search?q=pahit+arabica&tbm=shop" class="btn btn-success w-100"><i class="bi bi-cart4"></i> Beli</a>
+                            <a href="https://www.google.com/search?q=pahit+arabica&tbm=shop"
+                                class="btn btn-success w-100"><i class="bi bi-cart4"></i> Beli</a>
                         </div>
                     </div>
                 </div>
@@ -138,7 +154,8 @@
                                     Rp 18.000
                                 </div>
                             </div>
-                            <a href="https://www.google.com/search?q=kopi+susu+robusta&tbm=shop" class="btn btn-success w-100"><i class="bi bi-cart4"></i> Beli</a>
+                            <a href="https://www.google.com/search?q=kopi+susu+robusta&tbm=shop"
+                                class="btn btn-success w-100"><i class="bi bi-cart4"></i> Beli</a>
                         </div>
                     </div>
                 </div>
@@ -156,13 +173,15 @@
                                     Rp 23.000
                                 </div>
                             </div>
-                            <a href="https://www.google.com/search?q=latte+robusta&tbm=shop" class="btn btn-success w-100"><i class="bi bi-cart4"></i> Beli</a>
+                            <a href="https://www.google.com/search?q=latte+robusta&tbm=shop"
+                                class="btn btn-success w-100"><i class="bi bi-cart4"></i> Beli</a>
                         </div>
                     </div>
                 </div>
                 <div class="col mb-4">
                     <div class="card row-cols-1">
-                        <img src="https://i.pinimg.com/236x/d8/35/7e/d8357e362430a5e023b867ad112dcb0c.jpg" class="card-img-top" alt="...">
+                        <img src="https://i.pinimg.com/236x/d8/35/7e/d8357e362430a5e023b867ad112dcb0c.jpg"
+                            class="card-img-top" alt="...">
                         <div class="card-body">
                             <h5 class="card-title ">Susu Coklat</h5>
                             <div class="row hargasize my-2">
@@ -173,14 +192,16 @@
                                     Rp 14.000
                                 </div>
                             </div>
-                            <a href="https://www.google.com/search?q=susu+coklat&tbm=shop" class="btn btn-success w-100"><i class="bi bi-cart4"></i> Beli</a>
+                            <a href="https://www.google.com/search?q=susu+coklat&tbm=shop"
+                                class="btn btn-success w-100"><i class="bi bi-cart4"></i> Beli</a>
                         </div>
                     </div>
                 </div>
 
                 <div class="col mb-4">
                     <div class="card row-cols-1">
-                        <img src="https://i.pinimg.com/236x/a0/42/a6/a042a63ad554e144f2abc1c3a87329b4.jpg" class="card-img-top" alt="...">
+                        <img src="https://i.pinimg.com/236x/a0/42/a6/a042a63ad554e144f2abc1c3a87329b4.jpg"
+                            class="card-img-top" alt="...">
                         <div class="card-body">
                             <h5 class="card-title ">Es Teh</h5>
                             <div class="row hargasize my-2">
@@ -191,16 +212,54 @@
                                     Rp 10.000
                                 </div>
                             </div>
-                            <a href="https://www.google.com/search?q=es+teh&tbm=shop" class="btn btn-success w-100"><i class="bi bi-cart4"></i> Beli</a>
+                            <a href="https://www.google.com/search?q=es+teh&tbm=shop" class="btn btn-success w-100"><i
+                                    class="bi bi-cart4"></i> Beli</a>
                         </div>
                     </div>
                 </div>
 
+                <div class="col mb-4">
+                    <div class="card row-cols-1">
+                        <img src="https://i.pinimg.com/236x/21/f7/c9/21f7c91fb15046eec16dbf3cd24ad04a.jpg"
+                            class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title ">Churros</h5>
+                            <div class="row hargasize my-2">
+                                <div class="col">
+                                    65 gram
+                                </div>
+                                <div class="col text-secondary fw-bold">
+                                    Rp 11.000
+                                </div>
+                            </div>
+                            <a href="https://www.google.com/search?q=churros&tbm=shop" class="btn btn-success w-100"><i
+                                    class="bi bi-cart4"></i> Beli</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col mb-4">
+                    <div class="card row-cols-1">
+                        <img src="https://i.pinimg.com/236x/a5/25/2f/a5252f166dbebc02a4cc8f4784d9dbf7.jpg"
+                            class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title ">Kentang Goreng</h5>
+                            <div class="row hargasize my-2">
+                                <div class="col">
+                                    80 gram
+                                </div>
+                                <div class="col text-secondary fw-bold">
+                                    Rp 15.000
+                                </div>
+                            </div>
+                            <a href="https://www.google.com/search?q=kentang+goreng&tbm=shop"
+                                class="btn btn-success w-100"><i class="bi bi-cart4"></i> Beli</a>
+                        </div>
+                    </div>
+                </div>
 
             </div>
         </div>
-
-
 
     </section>
 
@@ -249,7 +308,7 @@
             data_json = data_mentah
             console.log(data_json)
         })
-        
+
         select_kopi.onchange = function () {
             var pilihan = select_kopi.value
             console.log(pilihan)
@@ -275,7 +334,7 @@
                                     ${kopi.harga}
                                 </div>
                             </div>
-                            <a href="${kopi.link}" class="btn btn-success bg-primary w-100"><i class="bi bi-cart4"></i> Beli</a>
+                            <a href="${kopi.link}" class="btn btn-success bg-success w-100"><i class="bi bi-cart4"></i> Beli</a>
                         </div>
                     </div>
                 </div>`
