@@ -1,0 +1,50 @@
+{
+    "arabica": [
+      {
+        "foto": "images/produk/product_capuchino.jpg",
+        "nama": "Cappuccino ",
+        "size": "120 ml",
+        "harga": "rp 15.000",
+        "link": "https://www.google.com/search?q=cappuccino+arabica&tbm=shop"
+      },
+      {
+        "foto": "images/produk/product_espresso.jpg",
+        "nama": "Espreso",
+        "size": "100 ml",
+        "harga": "Rp 18.000",
+        "link": "https://www.google.com/search?q=pahit+arabica&tbm=shop"
+      }
+    ],
+    "robusta": [
+      {
+        "foto": "images/produk/product_kopi_susu.jpg",
+        "nama": "Kopi Susu",
+        "size": "130 ml",
+        "harga": "Rp 18.000",
+        "link": "https://www.google.com/search?q=kopi+susu+robusta&tbm=shop"
+      },
+      {
+        "foto": "images/produk/product_latte.jpg",
+        "nama": "Latte ",
+        "size": "100 Gram",
+        "harga": "Rp 23.000",
+        "link": "https://www.google.com/search?q=latte+robusta&tbm=shop"
+      }
+    ],
+    "nonkopi": [
+      {
+        "foto": "https://i.pinimg.com/236x/d8/35/7e/d8357e362430a5e023b867ad112dcb0c.jpg",
+        "nama": "Susu Coklat",
+        "size": "130 ml",
+        "harga": "Rp 14.000",
+        "link": "https://www.google.com/search?q=susu+coklat&tbm=shop"
+      },
+      {
+        "nama": "Es Teh",
+        "size": "120 ml",
+        "harga": "Rp 10.000",
+        "link": "https://www.google.com/search?q=es+teh&tbm=shop",
+        "foto": "https://i.pinimg.com/236x/a0/42/a6/a042a63ad554e144f2abc1c3a87329b4.jpg"
+      }
+    ]
+  }
